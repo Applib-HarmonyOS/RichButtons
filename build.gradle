@@ -1,0 +1,14 @@
+// Top-level build file where you can add configuration options common to all sub-projects/modules.
+buildscript {
+    repositories {
+        mavenCentral()
+    }
+}
+
+allprojects {
+    group = 'richbuttons'
+    version = '0.1.1'
+    repositories {
+        mavenCentral()
+    }
+}

@@ -1,0 +1,18 @@
+language: android
+android:
+  components:
+    - build-tools-21.0.2
+    - tools
+    - android-19
+    - android-21
+    - system-image
+    - extra-android-support
+    - extra-android-m2repository
+  licenses:
+    - 'android-sdk-license-.+'
+before_script:
+    - echo no | android create avd --force -n test -t android-19 --abi default/armeabi-v7a
+    - emulator -avd test -no-skin -no-audio -no-window &
+    - android-wait-for-emulator
+script:
+    - travis_retry ./gradlew :richbuttons:assemble :richbuttons-samples:demos:assembleDebug
