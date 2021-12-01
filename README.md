@@ -38,6 +38,8 @@ Styles of the buttons such as background and text color are defined as `<style>`
         android:text="RbButton.Blue" />
 ```
 
+
+
 If you want to customize styles, directly modify the definition in the library or inherit styles.
 
 ## Blue
