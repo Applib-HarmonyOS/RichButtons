@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<state-container
+    xmlns:ohos="http://schemas.huawei.com/res/ohos">
+    <item ohos:element="$color:rb__button_blue_color" ohos:state="component_state_pressed"/>
+    <item ohos:element="$color:rb__button_blue_selected" ohos:state="component_state_selected"/>
+    <item ohos:element="$color:rb__button_blue_empty" ohos:state="component_state_empty"/>
+
+</state-container>
+

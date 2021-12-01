@@ -1,0 +1,353 @@
+<?xml version="1.0" encoding="utf-8"?>
+<DirectionalLayout
+    xmlns:ohos="http://schemas.huawei.com/res/ohos"
+    ohos:height="match_parent"
+    ohos:width="match_parent"
+    ohos:alignment="center"
+    ohos:orientation="vertical">
+
+    <ScrollView
+        ohos:height="match_parent"
+        ohos:width="match_parent"
+        ohos:background_element="#ffffff"
+        ohos:orientation="vertical">
+
+        <DirectionalLayout
+            ohos:height="match_content"
+            ohos:width="match_parent"
+            ohos:alignment="center"
+            ohos:orientation="vertical">
+
+            <Button
+                ohos:height="40vp"
+                ohos:width="match_parent"
+                ohos:background_element="$graphic:rb__blue_button"
+                ohos:focus_border_radius="$float:rb__space_elements"
+                ohos:left_margin="10vp"
+                ohos:right_margin="10vp"
+                ohos:text="RbButton.Blue"
+                ohos:text_shadow_radius="$float:rb__space_elements"
+                ohos:top_margin="$float:rb__space_elements"/>
+            <Button
+                ohos:height="40vp"
+                ohos:width="match_parent"
+                ohos:background_element="$graphic:rb__button_purple"
+                ohos:focus_border_radius="$float:rb__space_elements"
+                ohos:left_margin="10vp"
+                ohos:right_margin="10vp"
+                ohos:text="RbButton.purpal"
+                ohos:top_margin="$float:rb__space_elements"/>
+
+
+
+
+            <Button
+                ohos:height="40vp"
+                ohos:width="match_parent"
+                ohos:background_element="$graphic:rb__button_green"
+                ohos:focus_border_radius="$float:rb__space_elements"
+                ohos:left_margin="10vp"
+                ohos:right_margin="10vp"
+                ohos:text="RbButton.green"
+                ohos:text_shadow_radius="$float:rb__space_elements"
+                ohos:top_margin="$float:rb__space_elements"/>
+
+            <Button
+                ohos:height="40vp"
+                ohos:width="match_parent"
+                ohos:background_element="$graphic:rb__button_yellow"
+                ohos:focus_border_radius="$float:rb__space_elements"
+                ohos:left_margin="10vp"
+                ohos:right_margin="10vp"
+                ohos:text="RbButton.yellow"
+                ohos:text_shadow_radius="$float:rb__space_elements"
+                ohos:top_margin="$float:rb__space_elements"/>
+
+            <Button
+                ohos:height="40vp"
+                ohos:width="match_parent"
+                ohos:background_element="$graphic:rb__button_red"
+                ohos:focus_border_radius="$float:rb__space_elements"
+                ohos:left_margin="10vp"
+                ohos:right_margin="10vp"
+                ohos:text="RbButton.red"
+                ohos:text_shadow_radius="$float:rb__space_elements"
+                ohos:top_margin="$float:rb__space_elements"/>
+
+            <Button
+                ohos:height="40vp"
+                ohos:width="match_parent"
+                ohos:background_element="$graphic:rb__button_glossy"
+                ohos:focus_border_radius="$float:rb__space_elements"
+                ohos:left_margin="10vp"
+                ohos:right_margin="10vp"
+                ohos:text="RbButton.glossy"
+                ohos:text_shadow_radius="$float:rb__space_elements"
+                ohos:top_margin="$float:rb__space_elements"/>
+
+            <Button
+                ohos:height="40vp"
+                ohos:width="match_parent"
+                ohos:background_element="$graphic:rb__button_inverse"
+                ohos:focus_border_radius="$float:rb__space_elements"
+                ohos:left_margin="10vp"
+                ohos:right_margin="10vp"
+                ohos:text="RbButton.Inverse"
+                ohos:text_color="$color:rb__button_text_inverse"
+                ohos:text_shadow_radius="$float:rb__space_elements"
+                ohos:top_margin="$float:rb__space_elements"/>
+
+            <Button
+                ohos:height="40vp"
+                ohos:width="match_parent"
+                ohos:background_element="$graphic:rb__button_inverse_blue"
+                ohos:focus_border_radius="$float:rb__space_elements"
+                ohos:left_margin="10vp"
+                ohos:right_margin="10vp"
+                ohos:text="RbButton.Inverse.Blue"
+                ohos:text_color="$color:rb__button_text_inverse_blue"
+                ohos:text_shadow_radius="$float:rb__space_elements"
+                ohos:top_margin="$float:rb__space_elements"/>
+
+            <Button
+                ohos:height="40vp"
+                ohos:width="match_parent"
+                ohos:background_element="$graphic:rb__button_inverse_lightblue"
+                ohos:focus_border_radius="$float:rb__space_elements"
+                ohos:left_margin="10vp"
+                ohos:right_margin="10vp"
+                ohos:text="RbButton.Inverse.LightBlue"
+                ohos:text_color="$color:rb__button_text_inverse_blue"
+                ohos:text_shadow_radius="$float:rb__space_elements"
+                ohos:top_margin="$float:rb__space_elements"/>
+
+            <Button
+                ohos:height="40vp"
+                ohos:width="match_parent"
+                ohos:background_element="$graphic:rb__button_inverse_green"
+                ohos:focus_border_radius="$float:rb__space_elements"
+                ohos:left_margin="10vp"
+                ohos:right_margin="10vp"
+                ohos:text="RbButton.Inverse.Green"
+                ohos:text_color="$color:rb__button_text_inverse_blue"
+                ohos:text_shadow_radius="$float:rb__space_elements"
+                ohos:top_margin="$float:rb__space_elements"/>
+
+            <Button
+                ohos:height="40vp"
+                ohos:width="match_parent"
+                ohos:background_element="$graphic:rb__button_inverse_orange"
+                ohos:focus_border_radius="$float:rb__space_elements"
+                ohos:left_margin="10vp"
+                ohos:right_margin="10vp"
+                ohos:text="RbButton.Inverse.Orange"
+                ohos:text_color="$color:rb__button_text_inverse_blue"
+                ohos:text_shadow_radius="$float:rb__space_elements"
+                ohos:top_margin="$float:rb__space_elements"/>
+
+            <Button
+                ohos:height="40vp"
+                ohos:width="match_parent"
+                ohos:background_element="$graphic:rb__button_inverse_gray"
+                ohos:focus_border_radius="$float:rb__space_elements"
+                ohos:left_margin="10vp"
+                ohos:right_margin="10vp"
+                ohos:text="RbButton.Inverse.Gray"
+                ohos:text_color="$color:rb__button_text_inverse_blue"
+                ohos:text_shadow_radius="$float:rb__space_elements"
+                ohos:top_margin="$float:rb__space_elements"/>
+
+            <Button
+                ohos:height="40vp"
+                ohos:width="match_parent"
+                ohos:background_element="$graphic:rb__button_inverse_gray"
+                ohos:focus_border_radius="$float:rb__space_elements"
+                ohos:left_margin="10vp"
+                ohos:right_margin="10vp"
+                ohos:text="RbButton.Inverse.Gray"
+                ohos:text_color="$color:rb__button_text_inverse_blue"
+                ohos:text_shadow_radius="$float:rb__space_elements"
+                ohos:top_margin="$float:rb__space_elements"/>
+
+            <Button
+                ohos:height="40vp"
+                ohos:width="match_parent"
+                ohos:background_element="$graphic:rb__button_inverse_black"
+                ohos:focus_border_radius="$float:rb__space_elements"
+                ohos:left_margin="10vp"
+                ohos:right_margin="10vp"
+                ohos:text="RbButton.Inverse.Black"
+                ohos:text_color="$color:rb__button_text_inverse_blue"
+                ohos:text_shadow_radius="$float:rb__space_elements"
+                ohos:top_margin="$float:rb__space_elements"/>
+
+            <Button
+                ohos:height="40vp"
+                ohos:width="match_parent"
+                ohos:background_element="$graphic:rb__button_inverse_rounded"
+                ohos:focus_border_radius="$float:rb__space_elements"
+                ohos:left_margin="10vp"
+                ohos:right_margin="10vp"
+                ohos:text="RbButton.Inverse.Round"
+                ohos:text_color="$color:rb__button_text_inverse_blue"
+                ohos:text_shadow_radius="$float:rb__space_elements"
+                ohos:top_margin="$float:rb__space_elements"/>
+
+            <Button
+                ohos:height="40vp"
+                ohos:width="match_parent"
+                ohos:background_element="$graphic:rb__button_inverse_rounded_red"
+                ohos:focus_border_radius="$float:rb__space_elements"
+                ohos:left_margin="10vp"
+                ohos:right_margin="10vp"
+                ohos:text="RbButton.Inverse.Round.Red"
+                ohos:text_color="$color:rb__button_text_inverse_blue"
+                ohos:text_shadow_radius="$float:rb__space_elements"
+                ohos:top_margin="$float:rb__space_elements"/>
+
+            <Button
+                ohos:height="40vp"
+                ohos:width="match_parent"
+                ohos:background_element="$graphic:rb__button_inverse_rounded_blue"
+                ohos:focus_border_radius="$float:rb__space_elements"
+                ohos:left_margin="10vp"
+                ohos:right_margin="10vp"
+                ohos:text="RbButton.Inverse.Round.Blue"
+                ohos:text_color="$color:rb__button_text_inverse_blue"
+                ohos:text_shadow_radius="$float:rb__space_elements"
+                ohos:top_margin="$float:rb__space_elements"/>
+
+            <Button
+                ohos:height="40vp"
+                ohos:width="match_parent"
+                ohos:background_element="$graphic:rb__button_inverse_rounded_lightblue"
+                ohos:focus_border_radius="$float:rb__space_elements"
+                ohos:left_margin="10vp"
+                ohos:right_margin="10vp"
+                ohos:text="RbButton.Inverse.Round.LightBlue"
+                ohos:text_color="$color:rb__button_text_inverse_blue"
+                ohos:text_shadow_radius="$float:rb__space_elements"
+                ohos:top_margin="$float:rb__space_elements"/>
+
+            <Button
+                ohos:height="40vp"
+                ohos:width="match_parent"
+                ohos:background_element="$graphic:rb__button_inverse_rounded_green"
+                ohos:focus_border_radius="$float:rb__space_elements"
+                ohos:left_margin="10vp"
+                ohos:right_margin="10vp"
+                ohos:text="RbButton.Inverse.Round.Green"
+                ohos:text_color="$color:rb__button_text_inverse_blue"
+                ohos:text_shadow_radius="$float:rb__space_elements"
+                ohos:top_margin="$float:rb__space_elements"/>
+
+            <Button
+                ohos:height="40vp"
+                ohos:width="match_parent"
+                ohos:background_element="$graphic:rb__button_inverse_rounded_orange"
+                ohos:focus_border_radius="$float:rb__space_elements"
+                ohos:left_margin="10vp"
+                ohos:right_margin="10vp"
+                ohos:text="RbButton.Inverse.Round.Orange"
+                ohos:text_color="$color:rb__button_text_inverse_blue"
+                ohos:text_shadow_radius="$float:rb__space_elements"
+                ohos:top_margin="$float:rb__space_elements"/>
+
+            <Button
+                ohos:height="40vp"
+                ohos:width="match_parent"
+                ohos:background_element="$graphic:rb__button_inverse_rounded_black"
+                ohos:focus_border_radius="$float:rb__space_elements"
+                ohos:left_margin="10vp"
+                ohos:right_margin="10vp"
+                ohos:text="RbButton.Inverse.Round.Black"
+                ohos:text_color="$color:rb__button_text_inverse_blue"
+                ohos:text_shadow_radius="$float:rb__space_elements"
+                ohos:top_margin="$float:rb__space_elements"/>
+
+            <Button
+                ohos:height="40vp"
+                ohos:width="match_parent"
+                ohos:background_element="$graphic:rb__button_darken"
+                ohos:focus_border_radius="$float:rb__space_elements"
+                ohos:left_margin="10vp"
+                ohos:right_margin="10vp"
+                ohos:text="RbButton.darken"
+                ohos:text_shadow_radius="$float:rb__space_elements"
+                ohos:top_margin="$float:rb__space_elements"/>
+            <Button
+                ohos:height="40vp"
+                ohos:width="match_parent"
+                ohos:background_element="$graphic:rb__button_inverse_rounded_gray"
+                ohos:focus_border_radius="$float:rb__space_elements"
+                ohos:left_margin="10vp"
+                ohos:right_margin="10vp"
+                ohos:text="RbButton.Inverse.Round.Gray"
+                ohos:text_color="$color:rb__button_text_inverse_blue"
+                ohos:text_shadow_radius="$float:rb__space_elements"
+                ohos:top_margin="$float:rb__space_elements"/>
+
+            <Button
+                ohos:height="40vp"
+                ohos:width="match_parent"
+                ohos:background_element="$graphic:rb__button_recessed"
+                ohos:focus_border_radius="$float:rb__space_elements"
+                ohos:left_margin="10vp"
+                ohos:right_margin="10vp"
+                ohos:text="RbButton.Recessed"
+                ohos:text_color="$color:rb__button_text_inverse_blue"
+                ohos:text_shadow_radius="$float:rb__space_elements"
+                ohos:top_margin="$float:rb__space_elements"/>
+
+            <Button
+                ohos:height="40vp"
+                ohos:width="match_parent"
+                ohos:background_element="$graphic:rb__button_ics"
+                ohos:focus_border_radius="$float:rb__space_elements"
+                ohos:left_margin="10vp"
+                ohos:right_margin="10vp"
+                ohos:text="RbButton.ICS"
+                ohos:text_color="$color:rb__button_text_inverse_blue"
+                ohos:text_shadow_radius="$float:rb__space_elements"
+                ohos:top_margin="$float:rb__space_elements"/>
+
+            <Button
+                ohos:height="40vp"
+                ohos:width="match_parent"
+                ohos:background_element="$graphic:rb__button_ics_black"
+                ohos:focus_border_radius="$float:rb__space_elements"
+                ohos:left_margin="10vp"
+                ohos:right_margin="10vp"
+                ohos:text="RbButton.ICS.Black"
+                ohos:text_color="$color:rb__button_text_inverse_blue"
+                ohos:top_margin="$float:rb__space_elements"/>
+
+            <Button
+                ohos:text_shadow_radius="$float:rb__space_elements"
+                ohos:focus_border_radius="$float:rb__space_elements"
+                ohos:id="$+id:plastic"
+                ohos:height="40vp"
+                ohos:width="match_parent"
+                ohos:background_element="$graphic:rb__button_plastic"
+                ohos:left_margin="10vp"
+                ohos:right_margin="10vp"
+                ohos:text="RbButton.Plastic"
+                ohos:text_color="$color:rb__button_text_inverse_blue"
+                ohos:top_margin="$float:rb__space_elements"/>
+
+            <Button
+                ohos:text_shadow_radius="$float:rb__space_elements"
+                ohos:focus_border_radius="$float:rb__space_elements"
+                ohos:height="40vp"
+                ohos:width="match_parent"
+                ohos:background_element="$graphic:rb__button_plastic_rounded"
+                ohos:left_margin="10vp"
+                ohos:right_margin="10vp"
+                ohos:text="RbButton.Plastic.Rounded"
+                ohos:text_color="$color:rb__button_text_inverse_blue"
+                ohos:bottom_margin="$float:rb__radius_button"
+                ohos:top_margin="$float:rb__space_elements"/>
+        </DirectionalLayout>
+
+    </ScrollView>
+</DirectionalLayout>
