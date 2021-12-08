@@ -1,7 +1,14 @@
+[![Build](https://github.com/applibgroup/RichButtons/actions/workflows/main.yml/badge.svg)](https://github.com/applibgroup/RichButtons/actions/workflows/main.yml)
+[![Quality Gate Status](https://sonarcloud.io/api/project_badges/measure?project=applibgroup_RichButtons&metric=alert_status)](https://sonarcloud.io/dashboard?id=applibgroup_RichButtons)
+
 # Wearable Reply
 
 ## Introduction:
 'RichButtons' is a set of button styles for openharmony applications. All of the styles are made of XML.
+
+# Source
+This library has been inspired by [ksoichiro//RichButtons](https://github.com/ksoichiro/RichButtons).
+
 
 ## Usage Instructions:
 
@@ -40,7 +47,7 @@ Method 2:
             mavenCentral()
         }
     }
-implementation project(path: ':richbutton')
+implementation 'dev.applibgroup:richbutton:1.0.0'
 ```
 
 ## License
