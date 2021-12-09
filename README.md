@@ -15,8 +15,8 @@ This library has been inspired by [ksoichiro//RichButtons](https://github.com/ks
 #Blue
 
 <p>
-	<image src = "/screenshots/blue.png" width = 320 height = 512/>
-	<image src = "/screenshots/blue_pressed.png" width = 320 height = 512/>
+	<image src = "/screenshots/blue.png" width = 275 height = 38/>
+	<image src = "/screenshots/blue_pressed.png" width = 275 height = 38/>
 
 </p>
 
