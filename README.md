@@ -15,7 +15,7 @@ This library has been inspired by [ksoichiro//RichButtons](https://github.com/ks
 #Blue
 
 <p>
-	<image src = "/screenshots/blue.png" width = 275 height = 38/>
+	<image src = "/screenshots/blue.png" width = 320 height = 40/>
 	<image src = "/screenshots/blue_pressed.png" width = 275 height = 38/>
 
 </p>
@@ -25,8 +25,8 @@ This library has been inspired by [ksoichiro//RichButtons](https://github.com/ks
                 ohos:text="RbButton.Blue"/>
 #Purple
 <p>
-	<image src = "/screenshots/purple.png" width = 320 height = 512/>
-	<image src = "/screenshots/purple_pressed.png" width = 320 height = 512/>
+	<image src = "/screenshots/purple.png" width = 320 height = 40/>
+	<image src = "/screenshots/purple_pressed.png" width = 320 height = 40/>
 
 </p>
 
@@ -35,8 +35,8 @@ This library has been inspired by [ksoichiro//RichButtons](https://github.com/ks
                 ohos:text="RbButton.purple"/>
 #Green
 <p>
-	<image src = "/screenshots/green.png" width = 320 height = 512/>
-	<image src = "/screenshots/green_pressed.png" width = 320 height = 512/>
+	<image src = "/screenshots/green.png" width = 320 height = 40/>
+	<image src = "/screenshots/green_pressed.png" width = 320 height = 40/>
 
 </p>
 
@@ -45,8 +45,8 @@ This library has been inspired by [ksoichiro//RichButtons](https://github.com/ks
                 ohos:text="RbButton.green"/>
 #Yellow
 <p>
-	<image src = "/screenshots/yellow.png" width = 320 height = 512/>
-	<image src = "/screenshots/yellow_pressed.png" width = 320 height = 512/>
+	<image src = "/screenshots/yellow.png" width = 320 height = 40/>
+	<image src = "/screenshots/yellow_pressed.png" width = 320 height = 40/>
 
 </p>
 
@@ -55,8 +55,8 @@ This library has been inspired by [ksoichiro//RichButtons](https://github.com/ks
                 ohos:text="RbButton.yellow"/>
 #Red
 <p>
-	<image src = "/screenshots/red.png" width = 320 height = 512/>
-	<image src = "/screenshots/red_pressed.png" width = 320 height = 512/>
+	<image src = "/screenshots/red.png" width = 320 height = 40/>
+	<image src = "/screenshots/red_pressed.png" width = 320 height = 40/>
 
 </p>
 
