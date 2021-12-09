@@ -16,12 +16,9 @@ This library has been inspired by [ksoichiro//RichButtons](https://github.com/ks
 
 <p>
 	<image src = "/screenshots/blue.png" width = 320 height = 40/>
-</p>
-<p>
 	<image src = "/screenshots/blue_pressed.png" width = 275 height = 38/>
+
 </p>
-
-
 
             <Button
                 ohos:background_element="$graphic:rb__blue_button"               
