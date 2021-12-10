@@ -63,6 +63,8 @@ This library has been inspired by [ksoichiro//RichButtons](https://github.com/ks
             <Button                
                 ohos:background_element="$graphic:rb__button_red"
                 ohos:text="RbButton.red"/>
+                
+Note: xml based gradient updation is currently not available.
 
 ## Installation instructions:
 
