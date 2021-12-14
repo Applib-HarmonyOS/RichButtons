@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+
+<shape
+    xmlns:ohos="http://schemas.huawei.com/res/ohos"
+    ohos:shape="rectangle">
+
+    <solid
+        ohos:color="$color:rb__button_start_darken"/>
+
+    <corners ohos:radius="$float:rb__radius_button"/>
+
+    <stroke
+        ohos:color="$color:rb__button_selected_darken"/>
+</shape>
+
+
+
+

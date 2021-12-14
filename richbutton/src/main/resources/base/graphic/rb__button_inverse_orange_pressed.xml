@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<shape
+    xmlns:ohos="http://schemas.huawei.com/res/ohos"
+    ohos:shape="rectangle">
+
+    <solid
+        ohos:color="$color:rb__button_inverse_orange"/>
+
+    <corners ohos:radius="$float:rb__radius_button"/>
+
+    <stroke
+        ohos:color="$color:rb__button_selected_inverse_orange"/>
+</shape>
+
+

@@ -1,367 +1,89 @@
-# ![](richbuttons-samples/demos/res/drawable-ldpi/ic_launcher.png) RichButtons
-[![Build Status](https://travis-ci.org/ksoichiro/RichButtons.svg?branch=master)](https://travis-ci.org/ksoichiro/RichButtons)
-[![Maven Central](http://img.shields.io/maven-central/v/com.github.ksoichiro/richbuttons.svg)](https://github.com/ksoichiro/RichButtons/releases/latest)
+[![Build](https://github.com/applibgroup/RichButtons/actions/workflows/main.yml/badge.svg)](https://github.com/applibgroup/RichButtons/actions/workflows/main.yml)
+[![Quality Gate Status](https://sonarcloud.io/api/project_badges/measure?project=applibgroup_RichButtons&metric=alert_status)](https://sonarcloud.io/dashboard?id=applibgroup_RichButtons)
 
-'RichButtons' is a set of button styles for Android applications. All of the styles are made of XML.
+# Wearable Reply
 
-![Screenshot](richbuttons-samples/images/screenshot.png "Screenshots")
+## Introduction:
+'RichButtons' is a set of button styles for openharmony applications. All of the styles are made of XML.
+
+# Source
+This library has been inspired by [ksoichiro//RichButtons](https://github.com/ksoichiro/RichButtons).
 
 
-Install
-===
+## Usage:
 
-### Eclipse
+#Blue
 
-* The 'richbuttons' folder is the main library.
-Please import it into the Eclipse or other IDEs.
-* Or just copy files in the library folder into your project.
+<p>
+	<image src = "/screenshots/blue.png" width = 320 height = 40/>
+	<image src = "/screenshots/blue_pressed.png" width = 320 height = 40/>
 
-### Gradle
+</p>
 
-Add a dependency to your build.gradle.
+            <Button
+                ohos:background_element="$graphic:rb__blue_button"               
+                ohos:text="RbButton.Blue"/>
+#Purple
+<p>
+	<image src = "/screenshots/purple.png" width = 320 height = 40/>
+	<image src = "/screenshots/purple_pressed.png" width = 320 height = 40/>
 
-```groovy
-dependencies {
-    compile 'com.github.ksoichiro:richbuttons:0.1.1@aar'
-}
+</p>
+
+            <Button               
+                ohos:background_element="$graphic:rb__button_purple"
+                ohos:text="RbButton.purple"/>
+#Green
+<p>
+	<image src = "/screenshots/green.png" width = 320 height = 40/>
+	<image src = "/screenshots/green_pressed.png" width = 320 height = 40/>
+
+</p>
+
+            <Button                
+                ohos:background_element="$graphic:rb__button_green"
+                ohos:text="RbButton.green"/>
+#Yellow
+<p>
+	<image src = "/screenshots/yellow.png" width = 320 height = 40/>
+	<image src = "/screenshots/yellow_pressed.png" width = 320 height = 40/>
+
+</p>
+
+            <Button
+                ohos:background_element="$graphic:rb__button_yellow"
+                ohos:text="RbButton.yellow"/>
+#Red
+<p>
+	<image src = "/screenshots/red.png" width = 320 height = 40/>
+	<image src = "/screenshots/red_pressed.png" width = 320 height = 40/>
+
+</p>
+
+            <Button                
+                ohos:background_element="$graphic:rb__button_red"
+                ohos:text="RbButton.red"/>
+                
+Note: xml based gradient updation is currently not available.
+
+## Installation instructions:
+
+```
+Method 1:
+    Generate the .har package through the library and add the .har package to the libs folder.
+    Add the following code to the entry gradle:
+        implementation fileTree  (dir: 'libs', include: ['*.jar', '*.har'])
+
+Method 2:
+    allprojects{
+        repositories{
+            mavenCentral()
+        }
+    }
+implementation 'dev.applibgroup:richbutton:1.0.0'
 ```
 
-
-Usage
-===
-
-Styles of the buttons such as background and text color are defined as `<style>`. Apply the styles which name starts with `RbButton.` to the your buttons like following:
-
-```xml
-    <Button
-        style="@style/RbButton.Blue"
-        android:text="RbButton.Blue" />
-```
-
-If you want to customize styles, directly modify the definition in the library or inherit styles.
-
-## Blue
-
-![](richbuttons-samples/images/blue.png "default")  
-![](richbuttons-samples/images/blue_pressed.png "pressed")  
-
-```xml
-    <Button
-        style="@style/RbButton.Blue"
-        android:text="RbButton.Blue" />
-```
-
-## Purple
-
-![](richbuttons-samples/images/purple.png "default")  
-![](richbuttons-samples/images/purple_pressed.png "pressed")  
-
-```xml
-    <Button
-        style="@style/RbButton.Purple"
-        android:text="RbButton.Purple" />
-```
-
-## Green
-
-![](richbuttons-samples/images/green.png "default")  
-![](richbuttons-samples/images/green_pressed.png "pressed")  
-
-```xml
-    <Button
-        style="@style/RbButton.Green"
-        android:text="RbButton.Green" />
-```
-
-## Yellow
-
-![](richbuttons-samples/images/yellow.png "default")  
-![](richbuttons-samples/images/yellow_pressed.png "pressed")  
-
-```xml
-    <Button
-        style="@style/RbButton.Yellow"
-        android:text="RbButton.Yellow" />
-```
-
-## Red
-
-![](richbuttons-samples/images/red.png "default")  
-![](richbuttons-samples/images/red_pressed.png "pressed")  
-
-```xml
-    <Button
-        style="@style/RbButton.Red"
-        android:text="RbButton.Red" />
-```
-
-## Glossy
-
-![](richbuttons-samples/images/glossy.png "default")  
-![](richbuttons-samples/images/glossy_pressed.png "pressed")  
-
-```xml
-    <Button
-        style="@style/RbButton.Glossy"
-        android:text="RbButton.Glossy" />
-```
-
-## Inverse
-
-![](richbuttons-samples/images/inverse.png "default")  
-![](richbuttons-samples/images/inverse_pressed.png "pressed")  
-
-```xml
-    <Button
-        style="@style/RbButton.Inverse"
-        android:text="RbButton.Inverse" />
-```
-
-## Inverse.Red
-
-![](richbuttons-samples/images/inverse.red.png "default")  
-![](richbuttons-samples/images/inverse.red_pressed.png "pressed")  
-
-```xml
-    <Button
-        style="@style/RbButton.Inverse.Red"
-        android:text="RbButton.Inverse.Red" />
-```
-
-## Inverse.Blue
-
-![](richbuttons-samples/images/inverse.blue.png "default")  
-![](richbuttons-samples/images/inverse.blue_pressed.png "pressed")  
-
-```xml
-    <Button
-        style="@style/RbButton.Inverse.Blue"
-        android:text="RbButton.Inverse.Blue" />
-```
-
-## Inverse.LightBlue
-
-![](richbuttons-samples/images/inverse.lightblue.png "default")  
-![](richbuttons-samples/images/inverse.lightblue_pressed.png "pressed")  
-
-```xml
-    <Button
-        style="@style/RbButton.Inverse.LightBlue"
-        android:text="RbButton.Inverse.LightBlue" />
-```
-
-## Inverse.Green
-
-![](richbuttons-samples/images/inverse.green.png "default")  
-![](richbuttons-samples/images/inverse.green_pressed.png "pressed")  
-
-```xml
-    <Button
-        style="@style/RbButton.Inverse.Green"
-        android:text="RbButton.Inverse.Green" />
-```
-
-## Inverse.Orange
-
-![](richbuttons-samples/images/inverse.orange.png "default")  
-![](richbuttons-samples/images/inverse.orange_pressed.png "pressed")  
-
-```xml
-    <Button
-        style="@style/RbButton.Inverse.Orange"
-        android:text="RbButton.Inverse.Orange" />
-```
-
-## Inverse.Gray
-
-![](richbuttons-samples/images/inverse.gray.png "default")  
-![](richbuttons-samples/images/inverse.gray_pressed.png "pressed")  
-
-```xml
-    <Button
-        style="@style/RbButton.Inverse.Gray"
-        android:text="RbButton.Inverse.Gray" />
-```
-
-## Inverse.Black
-
-![](richbuttons-samples/images/inverse.black.png "default")  
-![](richbuttons-samples/images/inverse.black_pressed.png "pressed")  
-
-```xml
-    <Button
-        style="@style/RbButton.Inverse.Black"
-        android:text="RbButton.Inverse.Black" />
-```
-
-## Inverse.Rounded
-
-![](richbuttons-samples/images/inverse.rounded.png "default")  
-![](richbuttons-samples/images/inverse.rounded_pressed.png "pressed")  
-
-```xml
-    <Button
-        style="@style/RbButton.Inverse.Rounded"
-        android:text="RbButton.Inverse.Rounded" />
-```
-
-## Inverse.Rounded.Red
-
-![](richbuttons-samples/images/inverse.rounded.red.png "default")  
-![](richbuttons-samples/images/inverse.rounded.red_pressed.png "pressed")  
-
-```xml
-    <Button
-        style="@style/RbButton.Inverse.Rounded.Red"
-        android:text="RbButton.Inverse.Rounded.Red" />
-```
-
-## Inverse.Rounded.Blue
-
-![](richbuttons-samples/images/inverse.rounded.blue.png "default")  
-![](richbuttons-samples/images/inverse.rounded.blue_pressed.png "pressed")  
-
-```xml
-    <Button
-        style="@style/RbButton.Inverse.Rounded.Blue"
-        android:text="RbButton.Inverse.Rounded.Blue" />
-```
-
-## Inverse.Rounded.LightBlue
-
-![](richbuttons-samples/images/inverse.rounded.lightblue.png "default")  
-![](richbuttons-samples/images/inverse.rounded.lightblue_pressed.png "pressed")  
-
-```xml
-    <Button
-        style="@style/RbButton.Inverse.Rounded.LightBlue"
-        android:text="RbButton.Inverse.Rounded.LightBlue" />
-```
-
-## Inverse.Rounded.Green
-
-![](richbuttons-samples/images/inverse.rounded.green.png "default")  
-![](richbuttons-samples/images/inverse.rounded.green_pressed.png "pressed")  
-
-```xml
-    <Button
-        style="@style/RbButton.Inverse.Rounded.Green"
-        android:text="RbButton.Inverse.Rounded.Green" />
-```
-
-## Inverse.Rounded.Orange
-
-![](richbuttons-samples/images/inverse.rounded.orange.png "default")  
-![](richbuttons-samples/images/inverse.rounded.orange_pressed.png "pressed")  
-
-```xml
-    <Button
-        style="@style/RbButton.Inverse.Rounded.Orange"
-        android:text="RbButton.Inverse.Rounded.Orange" />
-```
-
-## Inverse.Rounded.Gray
-
-![](richbuttons-samples/images/inverse.rounded.gray.png "default")  
-![](richbuttons-samples/images/inverse.rounded.gray_pressed.png "pressed")  
-
-```xml
-    <Button
-        style="@style/RbButton.Inverse.Rounded.Gray"
-        android:text="RbButton.Inverse.Rounded.Gray" />
-```
-
-## Inverse.Rounded.Black
-
-![](richbuttons-samples/images/inverse.rounded.black.png "default")  
-![](richbuttons-samples/images/inverse.rounded.black_pressed.png "pressed")  
-
-```xml
-    <Button
-        style="@style/RbButton.Inverse.Rounded.Black"
-        android:text="RbButton.Inverse.Rounded.Black" />
-```
-
-## Darken
-
-![](richbuttons-samples/images/darken.png "default")  
-![](richbuttons-samples/images/darken_pressed.png "pressed")  
-
-```xml
-    <Button
-        style="@style/RbButton.Darken"
-        android:text="RbButton.Darken" />
-```
-
-## Recessed
-
-![](richbuttons-samples/images/recessed.png "default")  
-![](richbuttons-samples/images/recessed_pressed.png "pressed")  
-
-```xml
-    <Button
-        style="@style/RbButton.Recessed"
-        android:text="RbButton.Recessed" />
-```
-
-## ICS
-
-![](richbuttons-samples/images/ICS.png "default")  
-![](richbuttons-samples/images/ICS_pressed.png "pressed")  
-
-```xml
-    <Button
-        style="@style/RbButton.ICS"
-        android:text="RbButton.ICS" />
-```
-
-## ICS.Black
-
-![](richbuttons-samples/images/ICS.black.png "default")  
-![](richbuttons-samples/images/ICS.black_pressed.png "pressed")  
-
-```xml
-    <Button
-        style="@style/RbButton.ICS.Black"
-        android:text="RbButton.ICS.Black" />
-```
-
-## Plastic
-
-![](richbuttons-samples/images/plastic.png "default")  
-![](richbuttons-samples/images/plastic_pressed.png "pressed")  
-
-```xml
-    <Button
-        style="@style/RbButton.Plastic"
-        android:text="RbButton.Plastic" />
-```
-
-## Plastic.Rounded
-
-![](richbuttons-samples/images/plastic.rounded.png "default")  
-![](richbuttons-samples/images/plastic.rounded_pressed.png "pressed")  
-
-```xml
-    <Button
-        style="@style/RbButton.Plastic.Rounded"
-        android:text="RbButton.Plastic.Rounded" />
-```
-
-Samples
-===
-
-* Sample applications using this library are included in the samples folder.
-
-
-Developed By
-===
-
-* Soichiro Kashima - <soichiro.kashima@gmail.com>
-
-
-License
-===
+## License
 
     Copyright (c) 2013 Soichiro Kashima.
 

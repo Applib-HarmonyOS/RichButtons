@@ -1,0 +1,24 @@
+{
+  "float": [
+    {
+      "name": "rb__space_elements",
+      "value": "8vp"
+    },
+    {
+      "name": "rb__radius_button",
+      "value": "8vp"
+    },
+    {
+      "name": "rb__radius_button_rounded",
+      "value": "24fp"
+    },
+    {
+      "name": "rb__stroke_width_button_default",
+      "value": "1fp"
+    },
+    {
+      "name": "rb__offset_glossy_shadow",
+      "value": "24fp"
+    }
+  ]
+}

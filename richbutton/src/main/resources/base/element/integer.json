@@ -1,0 +1,17 @@
+{
+  "integer": [
+    {
+      "name": "rb__button_shadow_dx",
+      "value": 0
+    },
+    {
+      "name": "rb__button_shadow_dy",
+      "value": -1
+    },
+    {
+      "name": "rb__button_shadow_radius",
+      "value": 2
+    }
+  ]
+}
+

@@ -1,0 +1,329 @@
+{
+  "color": [
+    {
+      "name": "rb__button_blue_color",
+      "value" : "#CC33B5E5"
+    },
+    {
+      "name": "rb__button_blue_selected",
+      "value": "#FFCCCCCC"
+    },
+    {
+      "name": "rb__button_blue_empty",
+      "value": "#0000FF"
+    },
+    {
+      "name": "rb__button_darken",
+      "value": "#FF444444"
+    },
+    {
+      "name": "rb__button_start_darken",
+      "value": "#FF999999"
+    },
+    {
+      "name": "rb__button_selected_darken",
+      "value": "#00000000"
+    },
+    {
+      "name": "rb__button_purple",
+      "value": "#CCAA66CC"
+    },
+    {
+      "name": "rb__button_start_purpal",
+      "value": "#999933CC"
+    },
+    {
+      "name": "rb__button_selected_purple",
+      "value": "#00000000"
+    },
+    {
+      "name": "rb__button_green_sulu",
+      "value": "#CC99CC00"
+    },
+    {
+      "name": "rb__button_start_green_sulu",
+      "value": "#99669900"
+    },
+    {
+      "name": "rb__button_selected_green_sulu",
+      "value": "#00000000"
+    },
+    {
+      "name": "rb__button_yellow",
+      "value": "#CCFFBB33"
+    },
+    {
+      "name": "rb__button_start_yellow",
+      "value": "#99FF8800"
+    },
+    {
+      "name": "rb__button_selected_yellow",
+      "value": "#00000000"
+    },
+    {
+      "name": "rb__button_red",
+      "value": "#CCFF4444"
+    },
+    {
+      "name": "rb__button_start_red",
+      "value": "#99CC0000"
+    },
+    {
+      "name": "rb__button_selected_red",
+      "value": "#00000000"
+    },
+    {
+      "name": "rb__button_glossy",
+      "value": "#44333333"
+    },
+    {
+      "name": "rb__button_start_glossy",
+      "value": "#CCCCCC"
+    },
+    {
+      "name": "rb__button_selected_glossy",
+      "value": "#00000000"
+    },
+    {
+      "name": "rb__button_inverse",
+      "value": "#FFF6F6F6"
+    },
+    {
+      "name": "rb__button_start_inverse",
+      "value": "#00FFFFFF"
+    },
+    {
+      "name": "rb__button_selected_inverse",
+      "value": "#00000000"
+    },
+    {
+      "name": "rb__button_text_inverse",
+      "value": "#FF333333"
+    },
+    {
+      "name": "rb__button_inverse_blue",
+      "value": "#FF296CE9"
+    },
+    {
+      "name": "rb__button_start_inverse_blue",
+      "value": "#FF002F94"
+    },
+    {
+      "name": "rb__button_selected_inverse_blue",
+      "value": "#00000000"
+    },
+    {
+      "name": "rb__button_text_inverse_blue",
+      "value": "#FFFFFFFF"
+    },
+    {
+      "name": "rb__button_inverse_lightblue",
+      "value": "#FF6dCDE9"
+    },
+    {
+      "name": "rb__button_start_inverse_lightblue",
+      "value": "#FF1A7794"
+    },
+    {
+      "name": "rb__button_selected_inverse_lightblue",
+      "value": "#00000000"
+    },
+    {
+      "name": "rb__button_inverse_green",
+      "value": "#FF84C925"
+    },
+    {
+      "name": "rb__button_start_inverse_green",
+      "value": "#FF4F7227"
+    },
+    {
+      "name": "rb__button_selected_inverse_green",
+      "value": "#00000000"
+    },
+    {
+      "name": "rb__button_inverse_orange",
+      "value": "#FFFD9C28"
+    },
+    {
+      "name": "rb__button_start_inverse_orange",
+      "value": "#FFF2771D"
+    },
+    {
+      "name": "rb__button_selected_inverse_orange",
+      "value": "#00000000"
+    },
+    {
+      "name": "rb__button_inverse_gray",
+      "value": "#FF8C8C8C"
+    },
+    {
+      "name": "rb__button_start_inverse_gray",
+      "value": "#FF3A3A3A"
+    },
+    {
+      "name": "rb__button_selected_inverse_gray",
+      "value": "#00000000"
+    },
+    {
+      "name": "rb__button_inverse_black",
+      "value": "#FF333333"
+    },
+    {
+      "name": "rb__button_start_inverse_black",
+      "value": "#FF090909"
+    },
+    {
+      "name": "rb__button_selected_inverse_black",
+      "value": "#00000000"
+    },
+    {
+      "name": "rb__button_inverse_rounded",
+      "value": "#FFF6F6F6"
+    },
+    {
+      "name": "rb__button_start_inverse_rounded",
+      "value": "#FFCCCCCC"
+    },
+    {
+      "name": "rb__button_selected_inverse_rounded",
+      "value": "#00000000"
+    },
+    {
+      "name": "rb__button_text_rounded",
+      "value": "#FF333333"
+    },
+    {
+      "name": "rb__button_inverse_rounded_red",
+      "value": "#FFCC0808"
+    },
+    {
+      "name": "rb__button_start_inverse_rounded_red",
+      "value": "#FF9D0606"
+    },
+    {
+      "name": "rb__button_selected_inverse_rounded_red",
+      "value": "#00000000"
+    },
+    {
+      "name": "rb__button_inverse_rounded_blue",
+      "value": "#FF296CE9"
+    },
+    {
+      "name": "rb__button_start_inverse_rounded_blue",
+      "value": "#FF002F94"
+    },
+    {
+      "name": "rb__button_selected_inverse_rounded_blue",
+      "value": "#00000000"
+    },
+    {
+      "name": "rb__button_inverse_rounded_lightblue",
+      "value": "#FF6dCDE9"
+    },
+    {
+      "name": "rb__button_start_inverse_rounded_lightblue",
+      "value": "#FF1A7794"
+    },
+    {
+      "name": "rb__button_selected_inverse_rounded_lightblue",
+      "value": "#00000000"
+    },
+    {
+      "name": "rb__button_inverse_rounded_green",
+      "value": "#FF84C925"
+    },
+    {
+      "name": "rb__button_start_inverse_rounded_green",
+      "value": "#FF4F7227"
+    },
+    {
+      "name": "rb__button_selected_inverse_rounded_green",
+      "value": "#00000000"
+    },
+    {
+      "name": "rb__button_inverse_rounded_orange",
+      "value": "#FFFD9C28"
+    },
+    {
+      "name": "rb__button_start_inverse_rounded_orange",
+      "value": "#FFF2771D"
+    },
+    {
+      "name": "rb__button_selected_inverse_rounded_orange",
+      "value": "#00000000"
+    },
+    {
+      "name": "rb__button_inverse_rounded_gray",
+      "value": "#FF8C8C8C"
+    },
+    {
+      "name": "rb__button_start_inverse_rounded_gray",
+      "value": "#FF3A3A3A"
+    },
+    {
+      "name": "rb__button_selected_inverse_rounded_gray",
+      "value": "#00000000"
+    },
+    {
+      "name": "rb__button_inverse_rounded_black",
+      "value": "#FF333333"
+    },
+    {
+      "name": "rb__button_start_inverse_rounded_black",
+      "value": "#FF090909"
+    },
+    {
+      "name": "rb__button_selected_inverse_rounded_black",
+      "value": "#00000000"
+    },
+    {
+      "name": "rb__button_recessed",
+      "value": "#FFBBBBBB"
+    },
+    {
+      "name": "rb__button_start_recessed",
+      "value": "#FFEEEEEE"
+    },
+    {
+      "name": "rb__button_selected_recessed",
+      "value": "#00000000"
+    },
+    {
+      "name": "rb__button_ics",
+      "value": "#FFCCCCCC"
+    },
+    {
+      "name": "rb__button_start_ics",
+      "value": "#9933B5E5"
+    },
+    {
+      "name": "rb__button_selected_ics",
+      "value": "#00000000"
+    },
+    {
+      "name": "rb__button_ics_black",
+      "value": "#FF333333"
+    },
+    {
+      "name": "rb__button_start_ics_black",
+      "value": "#9933B5E5"
+    },
+    {
+      "name": "rb__button_selected_ics_black",
+      "value": "#00000000"
+    },
+    {
+      "name": "rb__button_plastic",
+      "value": "#FF9D0606"
+    },
+    {
+      "name": "rb__button_start_plastics",
+      "value": "#FFCC0808"
+    },
+    {
+      "name": "rb__button_selected_plastic",
+      "value": "#00000000"
+    }
+  ]
+}
+
